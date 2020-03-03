@@ -1,0 +1,92 @@
+body{
+    background: linear-gradient(rgba(15,32,39), rgba(32,58,67), rgba(44,83,100));
+    min-height: 100vh;
+    }
+    .logo{
+       width: 100%;
+    }
+    #boton { /*Estilo para los botes de login y registrarse*/
+    border-style: solid;
+    border-color: #2196f3;
+    border-width: 1px;
+    color: #3294F5 !important;
+    padding: 8px 22px;
+    text-align: center;
+    text-decoration: none !important;
+    display: inline-block;
+    font-family:'Press Start 2P', cursive;
+    font-size: 10px;
+    margin: 4px 6px;
+    cursor: pointer;
+    text-transform: uppercase;/*Transforma el texto*/
+  }
+  #boton::before{/*Hover para los botones*/
+    content: "";
+    position: absolute;
+    height: 160%;
+    top:-29%;
+    width: 15%;
+    background: white;
+    transform: rotateZ(30deg);
+    opacity: .4;
+    left: -40%;
+    transition: 500ms;
+  }
+  #boton:hover::before{
+     left: 100%;
+  }
+  #boton{
+    overflow: hidden;
+    position: relative;
+  }
+
+  #accordion>.card{/*Estilo para lo que muestra*/
+  background: linear-gradient(rgba(0,0,0), rgba(67,67,67));
+  color: white;
+  border: 1px solid black !important;
+}
+#accordion>.card>.card-header{/*Estilo para lo de afuera*/
+  /*background: linear-gradient(rgba(55,59,68,.8), rgba(66,134,244));*/
+  background-color: #2c5364;
+  color: white;
+  border: none !important;
+}
+#accordion>.card>.card-header>.mb-0>.btn{/*Estilo para la letra de afuera*/
+  color: white !important;
+  list-style: none !important;
+  font-family: 'Manjari', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/* .nav-link{
+    /* font-family: 'Press Start 2P', cursive; 
+} */
+.d-block{
+    width: 900px;
+    height: 350px;
+}
+.card{
+  background-color: #212529 !important;
+}
+
+.card-text{
+  color: white;
+}
+.card-title{
+  color: #4EA1F3;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 150px;
+}
+.mr-3{
+    width: 250px;
+}
+.mt-0{
+    color: #4EA1F3 ;
+}
+.text_vendido{
+    color: cornsilk;
+}

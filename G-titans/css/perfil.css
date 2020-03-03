@@ -1,0 +1,83 @@
+body, html{
+    /*important para sobre escribir el boostrap*/
+    /*background: linear-gradient(rgba(40,48,72,.8), rgba(133,147,152,.7)),url('imagenes/fondo_home.jpg');*/
+    background: linear-gradient(rgba(20,30,48,.8), rgba(36,59,85,.7)),url('../imagenes/perfil.jpg') no-repeat !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    background-position: center !important;
+    height:100vh !important;
+    width: 100% !important;
+}
+#boton { /*Estilo para los botes de login y registrarse*/
+    border-style: solid;
+    border-color: #2196f3;
+    border-width: 1px;
+    color: #3294F5 !important;
+    padding: 8px 22px;
+    text-align: center;
+    text-decoration: none !important;
+    display: inline-block;
+    font-family:'Press Start 2P', cursive;
+    font-size: 10px;
+    margin: 4px 6px;
+    cursor: pointer;
+    text-transform: uppercase;/*Transforma el texto*/
+  }
+  #boton::before{/*Hover para los botones*/
+    content: "";
+    position: absolute;
+    height: 160%;
+    top:-29%;
+    width: 15%;
+    background: white;
+    transform: rotateZ(30deg);
+    opacity: .4;
+    left: -40%;
+    transition: 500ms;
+  }
+  #boton:hover::before{
+     left: 100%;
+  }
+  #boton{
+    overflow: hidden;
+    position: relative;
+  }
+  #row {
+    padding-top: 90px !important;
+}
+.col-sm-5 > .perfil_foto{
+    width: 35%;
+    height: 160px;
+    border-radius: 50%;
+}
+.col .perfil_texto{
+    color: rgba(255,255,255);
+    padding: 4px;
+    /* margin: 5px; */
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.card {
+  /* background: linear-gradient(rgba(67,67,67)); */
+  background-color: rgba(33,37,41,.8) !important;
+}
+.card-title{
+  color: white;
+}
+.card-text{
+  color: white;
+}
+b{
+  font-family:'Press Start 2P', cursive;
+  color: rgba(255,255,255,.5);
+  font-size: 15px;
+}
+p{
+  font-family:'Press Start 2P', cursive;
+  color: #3294F5;
+  font-size: 15px;
+}
+h4{
+  font-family:'Press Start 2P', cursive;
+  color: white;
+}

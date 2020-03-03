@@ -1,0 +1,94 @@
+.card {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+}
+.card-text {
+  color: white;
+}
+h5 {
+  color: white;
+  opacity: 0.4;
+}
+.h-100 {
+  height: 100% !important;
+}
+.card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 17px 16px rgba(0, 0, 0, 0.8);
+}
+.card-body {
+  padding: 10px !important;
+}
+
+.card-title {
+  font-family: "Press Start 2P", cursive !important;
+  font-size: 13px;
+}
+.card-title > a {
+  color: #2196f3 !important;
+  text-decoration: none;
+  background-color: transparent;
+}
+.card-title > a:hover {
+  color: red !important;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.card-img-top {
+  position: relative;
+  height: 150px;
+}
+input.es-input {
+  opacity: .5;
+  padding-right: 20px !important;
+  background: black !important;
+}
+.es-list {
+  height: 100px !important;
+}
+.ps4{
+  width: 50%;
+  height: 130px;
+  box-shadow: 0 20px 10px rgba(0, 0, 0, 0.8);
+}
+.xbox360{
+  width: 50%;
+  box-shadow: 0 20px 10px rgba(0, 0, 0, 0.8);
+
+}
+@media (max-width: 989px) {
+  .card-title {
+    font-family: "Press Start 2P", cursive !important;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .col-md-6 {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 30% !important;
+    max-width: 50%;
+  }
+  .card {
+    width: 250px !important;
+  }
+  .card-title {
+    font-family: "Press Start 2P", cursive !important;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 594px) {
+  .row {
+    position: relative;
+    margin-left: -10px !important;
+    top: 10px !important;
+  }
+  .card {
+    width: 207px;
+  }
+  .card-title {
+    font-family: "Press Start 2P", cursive !important;
+    font-size: 10px;
+  }
+}

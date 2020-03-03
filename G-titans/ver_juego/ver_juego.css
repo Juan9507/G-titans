@@ -1,0 +1,30 @@
+.imagen {
+  width: 100%;
+  height: auto;
+  background: no-repeat;
+  background-size: 100% 100%;
+}
+
+.img-fluid {
+  width: 100%;
+  height: 300px;
+}
+h2,
+b,
+h4,
+i {
+  color: white;
+}
+.original {
+  color: white;
+}
+hr {
+  /* color: white; */
+  background: white;
+}
+a {
+  color: #efb810 !important ;
+}
+.modal-title {
+  color: black;
+}

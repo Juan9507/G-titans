@@ -1,0 +1,2 @@
+ancho 1920 px
+largo 1080px

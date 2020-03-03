@@ -1,0 +1,10 @@
+<?php 
+session_start();
+if($_SESSION['idUsuarios']){	
+	session_destroy();
+	header("location:../../inicio.php");
+}
+else{
+	header("location:../../inicio.php");
+}
+?>

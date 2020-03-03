@@ -1,0 +1,53 @@
+body, html{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+body, html{
+    /*important para sobre escribir el boostrap*/
+    /*background: linear-gradient(rgba(40,48,72,.8), rgba(133,147,152,.7)),url('imagenes/fondo_home.jpg');*/
+    background: linear-gradient(rgba(52,148,230,.8), rgba(236,110,173,.7)),url('../imagenes/fondo_home.jpg') no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    width: 100%;
+}
+
+.logo{
+    width: 55%;
+}
+h1{
+    font-family: 'Press Start 2P', cursive;
+}
+.p{
+    font-family: 'Manjari', sans-serif;
+}
+h1,p{
+    color: antiquewhite;
+}
+
+p{
+    font-size: 20px;
+}
+a .fab{
+    color: #fff;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+ /* Estilo para el popover */
+ .popover-body{
+     background-color:rgba(0, 0,0, .8) !important;
+     color: white !important;
+ }
+ .popover-header{
+   background-color:#2c5364 ; 
+   color: white;
+ }
+
+.list-inline-item > a:hover{
+    border-bottom: black 1px solid;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+} 
+
